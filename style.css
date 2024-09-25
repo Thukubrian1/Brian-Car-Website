@@ -1,0 +1,75 @@
+.image{
+    float: inline-start;
+    padding: 5px;
+    margin-block-end: 80px;
+    
+}
+
+body{
+   background-image: linear-gradient(to right, rgb(0, 255, 145),rgb(255, 255, 255),rgb(255, 255, 255),rgb(0, 255, 145));
+   margin-block-end: 50px;
+}
+
+.image:hover{
+    transform: scale(90%);
+    transition-duration: 1s;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+.details{
+    float: inline-start;
+    inline-size: 32%;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(212, 227, 227);
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.details:hover{
+
+    transform: scale(95%);
+    transition-duration: 0.5s;
+}
+
+h1{
+    text-align: center;
+}
+
+.service{
+
+    float: inline-start;
+    margin-block-end: 30px;
+}
+
+
+#Services{
+
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 20px;  
+}
+
+.contacts{
+    display: block;
+    text-align: center;
+}
+
+.about{
+    float: inline-start;
+    inline-size: 47%;
+    block-size:200px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(154, 241, 154);
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+}
